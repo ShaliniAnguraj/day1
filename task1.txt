@@ -1,14 +1,50 @@
 Write a blog on Difference between HTTP1.1 vs HTTP2
   
 Ans:HTTP/1.1
-It the usest works on the textual format.
-There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
-It uses requests resource Inlining for use getting multiple pages.	
-It uses HPACK for data compression.
-
+      * It the usest works on the textual format.
+      * There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+      * It uses requests resource Inlining for use getting multiple pages.	
+      * It uses HPACK for data compression.
 
 HTTP/2
-It works on the binary protocol.
-It allows multiplexing so one TCP connection is required for multiple requests.
-It uses PUSH frame by server that collects all multiple pages 
-It compresses data by itself.	
+      * It works on the binary protocol.
+      * It allows multiplexing so one TCP connection is required for multiple requests.
+      * It uses PUSH frame by server that collects all multiple pages 
+      * It compresses data by itself.	
+
+
+2.Write a blog about objects and its internal representation in Javascript
+
+Objects: 
+      * A javaScript object is an entity having state and behavior (properties and method).
+        (for example: A cup is an object, with properties>> A cup has a color, a design, weight, a material it is made of, etc).
+      * The same way, JavaScript objects can have properties, which define their characteristics.
+      * JavaScript is an object-based language. Everything is an object in JavaScript.
+      * JavaScript is template based not class based. Here, we don't create class to get the object.we direct create objects.
+     
+Creating Objects in JavaScript:
+      * By object literal
+      * By creating instance of Object directly (using new keyword)
+      * By using an object constructor (using new keyword)
+
+By object literal:
+      
+      syntax
+                  
+                  object={property1:value1,property2:value2.....propertyN:valueN}  
+
+Property and value is separated by colon(:).
+
+By creating instance of Object directly (using new keyword):
+      
+      syntax
+                  var objectname=new Object();  
+       
+       
+By using an Object constructor
+
+      * Need to create function with arguments. 
+      * Each argument value can be assigned in the current object by using this keyword.
+
+
+
